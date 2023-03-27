@@ -118,5 +118,3 @@ def preprocess_data():
     credit_data_test_transformed= transform_test_data(credit_data_test)
 
     return credit_data_train_balanced, credit_data_test_transformed
-
-preprocess_data()
